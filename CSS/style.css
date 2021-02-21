@@ -52,13 +52,29 @@ p{
 
 header{
     background: #000;
-    color: var(--gold-color);
     display: flex;
     justify-content: space-around;
 }
 
 .logo{
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     margin-left: 20px;  
+}
+
+nav{
+    max-width: 700px;
+    width: 100%;
+}
+
+.nav-list{
+    display: flex;
+    justify-content: space-around;  
+    margin-top: 50px;
+}
+
+.nav-list a{
+    color: var(--gold-color);
+    font-size: 2rem;
+    text-transform: uppercase;
 }
