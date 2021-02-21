@@ -138,12 +138,33 @@ nav{
 
 @media(max-width: 768px){
 
+    header{
+        height: 140px;
+    }
+
     nav{
-        background: red;
-        height: 300px;
+        height: 400px;
         width: 40%;
        transform: translateX(25px);
        transform: translateY(45px);
+    }
+
+    .nav-list{
+        flex-flow: column;
+        margin-left: 15px;
+        margin-top: 15px;
+        background: #000;
+        visibility: hidden;
+    }
+    
+    .nav-list li{
+        margin: 15px;
+    }
+
+    .logo{
+        width: 100px;
+        height: 100px;
+        margin-top: 15px;
     }
 
 }
