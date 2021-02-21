@@ -7,7 +7,7 @@
 }
 
 :root{
-    --primary-color: orange;
+    --primary-color: orangered;
     --secondary-color: brown;
     --text-color: black;
     --gold-color: gold;
@@ -77,4 +77,57 @@ nav{
     color: var(--gold-color);
     font-size: 2rem;
     text-transform: uppercase;
+}
+
+.hamburger{
+    background-color: var(--gold-color);
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 45px;
+    right: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    visibility: vis;
+}
+
+.bar{
+    background-color: #000; 
+    height: 2px;
+    width: 30px;
+    position: relative;
+    display: flex;
+}
+
+.bar::before, .bar::after{
+   content: '';
+   position: absolute;
+   left: 0;
+   height: 100%;
+   width: 100%;
+   background-color: #000;
+}
+
+.bar::before{
+   top: 8px;
+}
+
+.bar::after{
+   bottom: 8px;
+}
+
+.hamburger.active .bar::before{
+   top: 0;
+   transform: rotate(45deg);
+}
+
+.hamburger.active .bar::after{
+    top: 0;
+    transform: rotate(-45deg);
+}
+
+.hamburger.active .bar{
+    background-color: transparent;
 }
