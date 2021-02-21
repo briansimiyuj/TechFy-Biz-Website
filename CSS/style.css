@@ -156,6 +156,10 @@ nav{
         background: #000;
         visibility: hidden;
     }
+
+    .nav-list.active{
+        visibility: visible;
+    }
     
     .nav-list li{
         margin: 15px;
