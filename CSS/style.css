@@ -50,6 +50,13 @@ p{
     font-weight: 500;
 }
 
+header{
+    background: #000;
+    color: var(--gold-color);
+    display: flex;
+    justify-content: space-around;
+}
+
 .logo{
     width: 200px;
     height: 200px;
