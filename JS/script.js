@@ -54,4 +54,15 @@ const nextSlide = () =>{
 
 }
 
-nextSlide()
+
+
+
+if (auto) {
+    
+   slideInterval = setInterval(() => {
+       
+       nextSlide()
+   
+   }, interval)
+
+}
