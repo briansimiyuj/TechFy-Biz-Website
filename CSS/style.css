@@ -151,7 +151,7 @@ nav{
     transition: opacity .4s ease-in-out;    
 }
 
-.slide.current{
+.slide#current{
     opacity: 1;
 }
 

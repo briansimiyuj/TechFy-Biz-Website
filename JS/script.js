@@ -18,3 +18,40 @@ hamburger.addEventListener('click', () =>{
    navList.classList.toggle('active')
 
 })
+
+
+
+
+
+
+
+
+const nextSlide = () =>{
+
+   const current = document.querySelector('#current')
+
+   current.removeAttribute('id')
+
+
+   if (current.nextElementSibling) {
+      
+      current.nextElementSibling.setAttribute('id', 'current')
+
+   } else {
+
+      slides[0].setAttribute('id', 'current')
+      
+   }
+
+   setTimeout(() => {
+      
+      current.removeAttribute('id')
+
+   })
+
+   console.log('working')
+
+
+}
+
+nextSlide()
