@@ -4,7 +4,7 @@ const hamburger = document.querySelector('.hamburger'),
 
       slides = document.querySelectorAll('.slide'),
 
-      auto  = true,
+      auto  = false,
 
       interval = 5000
       
@@ -48,9 +48,6 @@ const nextSlide = () =>{
       current.removeAttribute('id')
 
    })
-
-   console.log('working')
-
 
 }
 
