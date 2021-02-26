@@ -7,8 +7,8 @@
 }
 
 :root{
-    --primary-color: orangered;
-    --secondary-color: brown;
+    --primary-color: #fd9104;
+    --secondary-color: #692c03;
     --text-color: black;
     --gold-color: gold;
     --white-color: #fff;
@@ -51,7 +51,7 @@ p{
 }
 
 header{
-    background: #000;
+    background: var(--primary-color);
     display: flex;
     justify-content: space-around;
 }
@@ -75,13 +75,13 @@ nav{
 }
 
 .nav-list a{
-    color: var(--gold-color);
+    color: var(--secondary-color);
     font-size: 2rem;
     text-transform: uppercase;
 }
 
 .hamburger{
-    background-color: var(--gold-color);
+    background-color: var(--secondary-color);
     width: 70px;
     height: 70px;
     position: absolute;
@@ -94,7 +94,7 @@ nav{
 }
 
 .bar{
-    background-color: #000; 
+    background-color: var(--primary-color); 
     height: 2px;
     width: 30px;
     position: relative;
@@ -107,7 +107,7 @@ nav{
    left: 0;
    height: 100%;
    width: 100%;
-   background-color: #000;
+   background-color: var(--primary-color);
 }
 
 .bar::before{
@@ -159,7 +159,7 @@ nav{
 }
 
 .content{
-    background-color: black;
+    background-color: var(--secondary-color);
     color: var(--primary-color);
     display: flex;
     flex-flow: column;
@@ -186,7 +186,7 @@ nav{
 
 .content a{
     padding: 8px 12px;
-    background-color: red;
+    background-color: var(--primary-color);
     text-transform: uppercase;
     margin: 0 auto;
     letter-spacing: 1.6;
