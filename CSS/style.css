@@ -37,6 +37,7 @@ h1{
     text-transform: uppercase;
     font-size: 3rem;
     font-weight: 900;
+    text-align: center;
 }
 
 h2{
@@ -198,6 +199,13 @@ nav{
 
 .slide#current{
     opacity: 1;
+}
+
+.about{
+    width: 50%;
+    background: var(--primary-color);
+    color: var(--secondary-color);
+    padding: 1rem;
 }
 
 
