@@ -176,6 +176,26 @@ nav{
     height: 100%;
 }
 
+.content h1, .content p{
+    margin-bottom: 3rem;
+}
+
+.content p{
+    padding: 0 1rem;
+}
+
+.content a{
+    padding: 8px 12px;
+    background-color: red;
+    text-transform: uppercase;
+    margin: 0 auto;
+    letter-spacing: 1.6;
+}
+
+.content a:hover{
+    transform: scale(1.2);
+}
+
 .slide#current{
     opacity: 1;
 }
