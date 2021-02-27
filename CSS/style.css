@@ -201,11 +201,33 @@ nav{
     opacity: 1;
 }
 
-#about{
+#about, #services{
     width: 50%;
     background: var(--primary-color);
     color: var(--secondary-color);
     padding: 1rem;
+}
+
+
+
+
+#services{
+    margin-top: 2rem;
+}
+
+.services{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.service{
+    background: red;
+}
+
+.service h2{
+    font-size: 1.5rem;
+    text-align: center;
 }
 
 
