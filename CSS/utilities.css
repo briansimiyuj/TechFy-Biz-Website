@@ -1,0 +1,29 @@
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.grid-3{
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.btn{
+    padding: 8px 12px;
+    background-color: var(--primary-color);
+    text-transform: uppercase;
+    margin: 0 auto;
+    letter-spacing: 1.6;
+    cursor: pointer;
+    transition: transform .5s ease;
+}
+
+.btn:hover{
+    transform: scale(1.2);
+}
