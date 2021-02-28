@@ -4,6 +4,10 @@
     align-items: center;
 }
 
+.fc{
+    flex-flow: column;
+}
+
 .grid{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -26,4 +30,17 @@
 
 .btn:hover{
     transform: scale(1.2);
+}
+
+.icon{
+    width: 60px;
+    height: 60px;
+    background-color: var(--secondary-color); 
+    color: #fff;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.icon i{
+
 }

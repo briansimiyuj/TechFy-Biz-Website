@@ -202,7 +202,11 @@ nav{
 }
 
 .service{
-    background: red;
+    padding: 1rem;
+}
+
+.service .icon{
+    margin: 1rem 0; 
 }
 
 .service h2{
