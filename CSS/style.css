@@ -215,6 +215,14 @@ nav{
 }
 
 
+
+footer{
+    background: var(--primary-color);   
+    width: 100%;
+    margin-top: 1rem;
+}
+
+
 /* Media Queries */
 
 @media(max-width: 768px){
