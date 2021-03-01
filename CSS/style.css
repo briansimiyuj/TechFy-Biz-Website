@@ -229,6 +229,16 @@ footer{
     padding: 1rem;
 }
 
+.social-profile{
+    width: 50%;
+    justify-content: space-around !important;
+}
+
+.social-profile a{
+    font-size: 3rem;
+    color: var(--secondary-color);
+}
+
 
 /* Media Queries */
 
