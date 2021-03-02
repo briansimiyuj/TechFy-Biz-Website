@@ -217,7 +217,7 @@ nav{
 
 
 footer{
-    background: var(--primary-color);   
+    background: var(--secondary-color);   
     width: 100%;
     margin-top: 1rem;
     justify-content: initial;
@@ -227,6 +227,10 @@ footer{
 .left, .right{
     width: 50%;
     padding: 1rem;
+}
+
+.right, .contact a{
+    color: #fff;
 }
 
 .footer-services h2{
@@ -240,11 +244,12 @@ footer{
 
 .social-profile a{
     font-size: 3rem;
-    color: var(--secondary-color);
+    color: var(--primary-color);
 }
 
 .copyright{
     margin-top: 3rem;
+    color: var(--primary-color);
 }
 
 .right h2{
