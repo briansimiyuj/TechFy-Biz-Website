@@ -239,6 +239,10 @@ footer{
     color: var(--secondary-color);
 }
 
+.copyright{
+    margin-top: 3rem;
+}
+
 
 /* Media Queries */
 
