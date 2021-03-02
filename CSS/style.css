@@ -229,6 +229,10 @@ footer{
     padding: 1rem;
 }
 
+.footer-services h2{
+    font-size: 1.9rem;    
+}
+
 .social-profile{
     width: 50%;
     justify-content: space-around !important;
@@ -241,6 +245,10 @@ footer{
 
 .copyright{
     margin-top: 3rem;
+}
+
+.right h2{
+    margin-bottom: 1rem;
 }
 
 
