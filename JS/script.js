@@ -11,9 +11,7 @@ const hamburger = document.querySelector('.hamburger'),
       interval = 5000
       
       let slideInterval
-
-
-      console.log(asideSlides)
+      
       
 
 hamburger.addEventListener('click', () =>{
@@ -34,8 +32,12 @@ hamburger.addEventListener('click', () =>{
 const nextSlide = () =>{
 
    const current = document.querySelector('#current')
+   
+   const currentS = document.querySelector('#currentS')
 
    current.removeAttribute('id')
+
+   currentS.removeAttribute('id')
 
 
    if (current.nextElementSibling) {
@@ -48,9 +50,22 @@ const nextSlide = () =>{
       
    }
 
+
+   if (currentS.nextElementSibling) {
+      
+      currentS.nextElementSibling.setAttribute('id', 'currentS')
+
+   } else {
+
+      asideSlides[0].setAttribute('id', 'currentS')
+      
+   }
+
    setTimeout(() => {
       
       current.removeAttribute('id')
+      
+      currentS.removeAttribute('id')
 
    })
 

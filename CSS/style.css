@@ -183,7 +183,7 @@ nav{
     padding: 0 1rem;
 }
 
-.slide#current{
+.slide#current, .slide#currentS{
     opacity: 1;
 }
 
