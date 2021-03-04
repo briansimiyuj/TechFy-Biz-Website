@@ -3,12 +3,17 @@ const hamburger = document.querySelector('.hamburger'),
       navList = document.querySelector(".nav-list"),
 
       slides = document.querySelectorAll('.slide'),
+      
+      asideSlides = document.querySelectorAll('aside .slide'),
 
-      auto  = false,
+      auto  = true,
 
       interval = 5000
       
       let slideInterval
+
+
+      console.log(asideSlides)
       
 
 hamburger.addEventListener('click', () =>{
