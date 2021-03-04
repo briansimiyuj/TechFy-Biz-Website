@@ -222,10 +222,19 @@ aside{
     height: 95%;
     top: 52rem;
     margin-left: 1rem;
+    color: #fff;
+}
+
+aside h4{
+    text-align: center;
 }
 
 aside h1{
     font-size: 2.5rem;
+}
+
+aside a{
+    color: var(--primary-color);
 }
 
 .slide-photos{
