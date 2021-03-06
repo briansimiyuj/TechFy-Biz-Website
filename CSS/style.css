@@ -245,6 +245,16 @@ aside a{
 
 
 
+
+.form{
+    width: 500px;
+    height: 600px;
+    background: red;
+    margin: 15px;
+}
+
+
+
 footer{
     background: var(--secondary-color);   
     width: 100%;
