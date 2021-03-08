@@ -222,7 +222,7 @@ aside{
     height: 95%;
     top: 52rem;
     margin-left: 1rem;
-    color: #fff;
+    color: var(--white-color);
 }
 
 aside h4{
@@ -284,7 +284,7 @@ textarea{
     margin-top: 3rem;
     padding: 1rem 4rem !important;
     background: var(--secondary-color);
-    color: #fff;
+    color: var(--white-color);
 }      
 
 
@@ -303,7 +303,7 @@ footer{
 }
 
 .right, .contact a{
-    color: #fff;
+    color: var(--white-color);
 }
 
 .footer-services h2{
