@@ -249,8 +249,9 @@ aside a{
 .form{
     width: 500px;
     height: 600px;
-    background: red;
+    background: var(--primary-color);
     margin: 15px;
+    color: var(--secondary-color);
 }
 
 .form h1{
@@ -271,12 +272,20 @@ input, textarea{
     background: transparent;
     border: none;
     outline: none;
-    border-bottom: 1px solid blue;
+    border-bottom: 1px solid var(--secondary-color);
+    color: var(--secondary-color);
 }
 
 textarea{
     resize: none;
 }
+
+.form .btn{
+    margin-top: 3rem;
+    padding: 1rem 4rem !important;
+    background: var(--secondary-color);
+    color: #fff;
+}      
 
 
 
