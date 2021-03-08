@@ -247,10 +247,10 @@ aside a{
 
 
 .form{
-    width: 500px;
+    width: 50%;
     height: 600px;
     background: var(--primary-color);
-    margin: 15px;
+    margin: 10px 5px 0 0;
     color: var(--secondary-color);
 }
 
