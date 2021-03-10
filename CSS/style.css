@@ -290,6 +290,25 @@ textarea{
 
 
 
+
+.about-container{
+    background-color: var(--secondary-color);
+    width: 50%;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.brief-story h1{
+    color: #fff;
+}
+
+.brief-story p{
+    color: var(--primary-color);
+    margin-top: 2rem;
+}
+
+
+
 footer{
     background: var(--secondary-color);   
     width: 100%;
