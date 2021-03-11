@@ -312,6 +312,21 @@ textarea{
 
 
 
+.values{
+    background: red;
+    padding: 10px;
+}
+
+.value{
+    margin-bottom: 1rem;
+}
+
+#core li{
+    text-transform: capitalize;
+}
+
+
+
 footer{
     background: var(--secondary-color);   
     width: 100%;
