@@ -327,6 +327,24 @@ textarea{
 }
 
 
+#products-container{
+    background-color: red;
+    width: 100%;
+    margin-top: 2rem;   
+}
+
+.product{
+    background: blue;
+    width: 400px;
+    color: #fff;
+}
+
+.product-photo{
+    width: 300px;
+    height: 300px;
+}
+
+
 
 footer{
     background: var(--secondary-color);   
