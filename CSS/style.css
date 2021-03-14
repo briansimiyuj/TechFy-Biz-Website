@@ -333,7 +333,7 @@ textarea{
 }
 
 .product{
-    background: blue;
+    background: var(--secondary-color);
     width: 400px;
     position: relative;
     color: #fff;
@@ -352,8 +352,15 @@ textarea{
 
 .product-desc{
     font-size: .2rem !important;
-    background-color: red;
     padding: 1rem;
+}
+
+.product .btn:hover{
+    transform: none;
+} 
+
+.product-desc p{
+    margin-top: 1rem;
 }
 
 .product .btn{
