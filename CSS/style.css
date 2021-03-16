@@ -544,4 +544,12 @@ footer{
         font-size: 1rem;
     }
 
+    .about-container{
+        width: 100%;
+    }
+
+    .values{
+        width: 95%;
+    }    
+
 }
