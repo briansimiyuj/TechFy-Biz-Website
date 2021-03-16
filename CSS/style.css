@@ -505,4 +505,43 @@ footer{
         font-size: 2rem; 
    }
 
+   aside{
+       top: 58rem;
+       height: 60%;
+   }
+
+   #about{
+       position: absolute;
+       top: 58rem;
+    }
+
+    .services{
+        grid-template-columns: repeat(2, 1fr) !important;
+    }
+
+    #services h1, #about h1{
+        font-size: 2rem;
+    }
+
+    .service{
+        padding: 0;
+    }
+
+    .service h2{
+        font-size: 1.2rem;
+    }
+
+    .slide-photos{
+        margin-top: 11rem;
+    }
+
+    aside h1{
+        font-size: 2rem;
+        margin-bottom: 5px;
+    }
+
+    aside a{
+        font-size: 1rem;
+    }
+
 }
