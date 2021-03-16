@@ -419,6 +419,10 @@ footer{
 /* Media Queries */
 
 @media(max-width: 768px){
+    
+    body{
+        overflow-x: hidden;
+    }
 
     header{
         height: 140px;
