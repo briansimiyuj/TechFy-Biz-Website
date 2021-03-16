@@ -464,7 +464,6 @@ footer{
     }
 
     .left{
-        background: red;
         width: 100%;
         margin-top: 1rem;
     }
@@ -477,5 +476,12 @@ footer{
         width: 35rem;
         text-align: center;
     }
+    
+    .right{
+        background: red;
+        width: 100%;
+        margin: 0 auto;
+    }
+
 
 }
