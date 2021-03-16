@@ -6,7 +6,7 @@ const hamburger = document.querySelector('.hamburger'),
       
       asideSlides = document.querySelectorAll('aside .slide'),
 
-      auto  = false,
+      auto  = true,
 
       interval = 5000
       
