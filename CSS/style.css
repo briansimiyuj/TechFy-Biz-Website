@@ -459,4 +459,23 @@ footer{
         margin-top: 15px;
     }
 
+    footer{
+        flex-flow: column-reverse;
+    }
+
+    .left{
+        background: red;
+        width: 100%;
+        margin-top: 1rem;
+    }
+
+    .social-profile li{
+        margin: 0 5rem;
+    }
+
+    .copyright{
+        width: 35rem;
+        text-align: center;
+    }
+
 }
