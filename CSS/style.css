@@ -87,8 +87,9 @@ nav{
     height: 70px;
     position: absolute;
     top: 45px;
-    right: 45px;
+    right: 15px;
     cursor: pointer;
+    z-index: 2000;
 }
 
 .bar{
@@ -421,10 +422,14 @@ footer{
 
     header{
         height: 140px;
+        position: relative; 
     }
-
+    
     nav{
+        z-index: 1000;
         height: 400px;
+        position: absolute;
+        right: 0;
         width: 40%;
        transform: translateX(25px);
        transform: translateY(45px);
@@ -434,7 +439,7 @@ footer{
         flex-flow: column;
         margin-left: 15px;
         margin-top: 15px;
-        background: #000;
+        background: var(--primary-color);
         visibility: hidden;
     }
 
@@ -449,6 +454,8 @@ footer{
     .logo{
         width: 100px;
         height: 100px;
+        position: absolute;
+        left: 100px;
         margin-top: 15px;
     }
 
