@@ -552,4 +552,21 @@ footer{
         width: 95%;
     }    
 
+    #products{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .product{
+        width: 300px;
+        margin: 0 auto;
+    }
+
+    .product-desc p{
+        font-size: 1.3rem;
+    }
+
+    .sm{
+        margin-bottom: 6rem;
+    }
+
 }
