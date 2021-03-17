@@ -440,7 +440,7 @@ footer{
 @media(max-width: 768px){
     
     body{
-        overflow-x: hidden;
+        /* overflow-x: hidden; */
     }
 
     header{
@@ -644,4 +644,68 @@ footer{
         width: 80%;
     }
 
+    #about, #services{
+        width: 100%;    
+        /* margin-top: 10px; */
+    }
+
+    #about{
+        top: 39rem;
+    }
+
+    #services{
+        position: absolute;
+        top: 52rem; 
+        margin-bottom: 6rem;
+    }
+
+    #services h1{
+        font-size: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    aside{
+        display: none;
+    }
+
+    footer{
+        margin-top: 5rem;
+    }
+
+    .slide-photo, .content{
+        width: 50%;
+        height: 60%;
+    }
+}
+
+
+
+
+
+@media(max-width: 450px){
+
+    .nav-list li a{
+        font-size: 1.5rem !important;
+    }
+
+    #services{        
+        top: 59rem;        
+    }
+
+    aside{
+        display: none;  
+    }
+
+    footer{
+        margin-top: 12rem;
+    }
+
+    .right h2{
+        font-size: 1.5rem;
+    }
+
+    .right a{
+        font-size: 1.3rem;
+    }
+    
 }
