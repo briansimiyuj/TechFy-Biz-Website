@@ -413,6 +413,10 @@ footer{
     font-size: 1.9rem;    
 }
 
+.footer-careers a{
+    color: var(--white-color)
+}
+
 .social-profile{
     width: 50%;
     justify-content: space-around !important;
@@ -442,9 +446,12 @@ footer{
 
 @media(max-width: 768px){
     
+    /* 
     body{
-        /* overflow-x: hidden; */
+        overflow-x: hidden; 
     }
+
+    */
 
     header{
         height: 140px;
