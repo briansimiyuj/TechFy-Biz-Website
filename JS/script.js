@@ -83,3 +83,30 @@ if (auto) {
    }, interval)
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+const addLoader = () =>{
+
+   const body = document.querySelector("body") 
+
+   const loader = document.createElement("div")
+
+   loader.className = "loader" 
+
+   body.appendChild(loader)
+
+   console.log(loader)
+
+}
+
+addLoader()
