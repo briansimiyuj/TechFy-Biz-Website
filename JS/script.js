@@ -105,7 +105,19 @@ const addLoader = () =>{
 
    body.appendChild(loader)
 
-   console.log(loader)
+   
+   
+   for (let i = 0; i < 2; i++) {
+
+      const circles = document.createElement("div")
+
+      circles.className = "circle"
+
+      loader.appendChild(circles)
+
+      console.log(circles)
+            
+   }
 
 }
 
