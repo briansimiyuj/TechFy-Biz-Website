@@ -672,7 +672,7 @@ footer{
     #services{
         position: absolute;
         top: 35rem; 
-        margin-bottom: 6rem;
+        /* margin-bottom: 6rem; */
     }
 
     #services h1{

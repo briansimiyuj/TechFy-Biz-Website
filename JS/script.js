@@ -128,8 +128,7 @@ const addLoader = () =>{
 
       })
 
-      console.log('working')
-  
+       
   }
   
   
@@ -137,7 +136,7 @@ const addLoader = () =>{
   
       opacity()      
   
-  }, 4000)
+  }, 3000)
 
 }
 
