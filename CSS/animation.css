@@ -1,0 +1,61 @@
+body > *{
+    opacity: 0;
+}
+
+body.opacity > *{
+    opacity: 1;
+    transition: opacity 1s;
+}
+
+.loader{
+    position: absolute;
+    top: 300px;
+    left: 500px;
+    height: 100px;
+    animation: rotate 3s linear infinite;
+    transform-origin: bottom center;
+    opacity: 1 !important;
+}
+
+.loader.opacity{
+    opacity: 0 !important;
+}
+
+.circle{
+    display: inline-block;
+    background-color: #fd9104;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin: 5px;
+    animation: grow 1.5s linear infinite;
+    /* transform: scale(0); */
+}
+
+.circle:nth-child(2){
+    background: #692c03;
+    animation-delay: .75s;
+}
+
+
+
+
+
+
+@keyframes rotate{
+
+    to{
+        transform: rotate(360deg);
+    }
+
+}
+
+
+
+@keyframes grow{
+
+    50%{
+        transform: scale(1);
+    }
+
+}

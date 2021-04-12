@@ -114,10 +114,30 @@ const addLoader = () =>{
       circles.className = "circle"
 
       loader.appendChild(circles)
-
-      console.log(circles)
-            
    }
+
+
+
+   const opacity = () =>{
+
+      const opacities  = [loader, body]
+
+      opacities.forEach(opa => {
+         
+         opa.classList.add("opacity")
+
+      })
+
+      console.log('working')
+  
+  }
+  
+  
+  setTimeout(() => {
+  
+      opacity()      
+  
+  }, 4000)
 
 }
 
