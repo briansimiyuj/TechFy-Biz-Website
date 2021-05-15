@@ -23,7 +23,7 @@ const Services = () => {
                     <div className="post-preview">
                       <h6 className="post-title"> Web Applications </h6>
                       <p className="post-intro">
-                        We create basic and costom web applications based on our
+                        We create basic and custom web applications based on our
                         clients' intrests.
                       </p>
                     </div>
@@ -35,7 +35,7 @@ const Services = () => {
                     <div className="post-preview">
                       <h6 className="post-title">Ecommerce Wesites </h6>
                       <p className="post-intro">
-                        We offer ecomerce web application development with
+                        We offer e-commerce web application development with
                         checkout capabilities.
                       </p>
                     </div>
