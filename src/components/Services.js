@@ -24,7 +24,7 @@ const Services = () => {
                       <h6 className="post-title"> Web Applications </h6>
                       <p className="post-intro">
                         We create basic and custom web applications based on our
-                        clients' intrests.
+                        clients' interests.
                       </p>
                     </div>
                   </div>
@@ -33,7 +33,7 @@ const Services = () => {
                   <div className="post col ">
                     <img className="thumbnail" src={ecom} />
                     <div className="post-preview">
-                      <h6 className="post-title">Ecommerce Wesites </h6>
+                      <h6 className="post-title">E-commerce Wesites </h6>
                       <p className="post-intro">
                         We offer e-commerce web application development with
                         checkout capabilities.

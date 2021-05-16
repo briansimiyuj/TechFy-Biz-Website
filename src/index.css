@@ -229,13 +229,11 @@ nav > ul {
   line-height: 1.6;
   font-size: 20px;
   margin-bottom: 0;
-  font-family: "Marko One", serif;
 }
 
 .footer-dark ul a {
   color: inherit;
   text-decoration: none;
-  opacity: 0.6;
 }
 
 .footer-dark ul a:hover {
@@ -260,7 +258,6 @@ nav > ul {
 }
 
 .footer-dark .item.text p {
-  opacity: 0.6;
   margin-bottom: 0;
 }
 

@@ -14,8 +14,9 @@ const Footer = () => {
                 <h3>Services</h3>
                 <ul>
                   <li>Web design</li>
-                  <li>Development</li>
-                  <li>Hosting</li>
+                  <li>App Development</li>
+                  <li>Digital Marketing</li>
+                  <li>Branding</li>
                 </ul>
               </div>
               <div className="col-sm-6 col-md-3 item">
